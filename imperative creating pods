@@ -1,0 +1,5 @@
+kubectl run mypod --image=httpd            #manually creat a pod
+kubectl get pods                             #to get the list of pods 
+kubectl run flm --image=httpd                 #manually creat a pod
+kubectl delete pod flm                    # delete a particular pod
+kubectl get po <pod name>                 #to get the particular pod details 
